@@ -24,7 +24,7 @@ const [,,simplification, percentage] = process.argv;
 
 function convert() {
     exec(
-      `pnpm exec mapshaper ./dist/combined-shapefile.shp -simplify ${simplification} ${percentage} -o precision=0.00001 ${target}`,
+      `pnpm exec mapshaper ./dist/combined-shapefile.shp -simplify ${simplification} ${percentage} -filter remove-empty -o precision=0.00001 ${target}`,
       (err, output) => {
         // once the command has completed, the callback function is called
         if (err) {
