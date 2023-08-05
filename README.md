@@ -27,7 +27,7 @@ node index.js visvalingam 0.21%
 
 Result: [output.geojson](output.geojson)
 
-![alt text](https://github.com/dejurin/simplified-timezone-boundaries/blob/main/map.png?raw=true)
+![output.geojson](https://github.com/dejurin/simplified-timezone-boundaries/blob/main/map.png?raw=true)
 
 You can see the result of the degreasing at http://geojson.io/ (copy the contents of the file [output.geojson](output.geojson) and paste it into the form).
 
