@@ -29,3 +29,4 @@ You can see the result of the degreasing at http://geojson.io/ (copy the content
 - https://mapshaper.org/ - Simplification online tool.
 - http://geojson.io/ - A quick, simple tool for creating, viewing, and sharing spatial data.
 - https://bost.ocks.org/mike/simplify/ - Line Simplification.
+- https://nominatim.openstreetmap.org/search?country=ukraine&polygon_geojson=1&format=geojson&polygon_threshold=0.1 - polygon_threshold
