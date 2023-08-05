@@ -1,4 +1,4 @@
-Boundaries of time zones without fat.
+Boundaries of time zones fat-free.
 
 # What's that?
 
