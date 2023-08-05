@@ -9,6 +9,10 @@ Two wonderful repositories will help us to implement our project [mapshaper](htt
 ## Getting started
 
 ```
+pnpm i
+```
+
+```
 node index.js visvalingam 0.21%
 ```
 - **visvalingam** is simplification. Mapshaper supports Douglas-Peucker (dp) simplification and two kinds of Visvalingam (visvalingam) simplification.
