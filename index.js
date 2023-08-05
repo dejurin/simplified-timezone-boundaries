@@ -20,11 +20,11 @@ const onError = (error) => {
 const filename = "timezones.shapefile.zip";
 const target = "output.geojson";
 
-const [,,algorithm, percentage] = process.argv;
+const [,,simplification, percentage] = process.argv;
 
 function convert() {
     exec(
-      `pnpm exec mapshaper ./dist/combined-shapefile.shp -simplify ${algorithm} ${percentage} -o precision=0.00001 ${target}`,
+      `pnpm exec mapshaper ./dist/combined-shapefile.shp -simplify ${simplification} ${percentage} -o precision=0.00001 ${target}`,
       (err, output) => {
         // once the command has completed, the callback function is called
         if (err) {
