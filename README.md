@@ -23,7 +23,11 @@ Result: [output.geojson](output.geojson)
 
 You can see the result of the degreasing at http://geojson.io/ (copy the contents of the file [output.geojson](output.geojson) and paste it into the form).
 
-### Referals
+### Referrals
 
-https://github.com/evansiroky/timezone-boundary-builder - A tool to extract data from Open Street Map (OSM) to build the boundaries of the world's timezones.
-https://mapshaper.org/ - Simplification online tool.
+- https://github.com/evansiroky/timezone-boundary-builder - A tool to extract data from Open Street Map (OSM) to build the boundaries of the world's timezones.
+- https://mapshaper.org/ - Simplification online tool.
+- https://nominatim.openstreetmap.org/search?country=ukraine&polygon_geojson=1&format=geojson&polygon_threshold=0.1
+- http://geojson.io/ - A quick, simple tool for creating, viewing, and sharing spatial data.
+- https://bost.ocks.org/mike/simplify/ - Line Simplification.
+
