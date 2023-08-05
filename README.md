@@ -8,6 +8,8 @@ Two wonderful repositories will help us to implement our project [mapshaper](htt
 
 ## Getting started
 
+[How to install PNPM](https://pnpm.io/installation)
+
 ```
 pnpm i
 ```
