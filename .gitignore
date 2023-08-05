@@ -130,3 +130,4 @@ dist
 .pnp.*
 timezones.shapefile.zip
 pnpm-lock.yaml
+.DS_Store
